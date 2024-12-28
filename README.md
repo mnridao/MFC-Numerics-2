@@ -1,6 +1,6 @@
 # Assignment 2 for MFC Numerics
 Basic finite element solver that models the spread of pollution from Southampton to Reading with the linear advection-diffusion equation. Below is shown for 
-a spiral velocity field over the UK, meant to represent a cyclone-ish wind field.
+a spiral velocity field over the SW UK (centred over Reading), meant to represent a cyclone-ish wind field.
 
 <img src="Plots/cycloneResults.png" alt="solution" width="500"/>
 
