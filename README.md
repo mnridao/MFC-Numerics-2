@@ -8,5 +8,5 @@ Basic finite element solver that models the spread of pollution from Southampton
 * matplotlib (v3.9.2)
 * scipy (v1.14.1)
 
-## What
-Running main.py produces the plots in my report. 
+## What to do
+* Running main.py produces the plots in my report (under 10 mins for me!). 
