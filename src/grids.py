@@ -21,7 +21,8 @@ class UKMesh:
         self.bc = bc
         
         # Root file path - default is previous folder, should be more general.
-        self.root = "../"
+        # self.root = "../"
+        self.root = ""
         
         # Check if resolution is acceptable.
         acceptableRes = ['1_25', '2_5', '5', '10', '20', '40']

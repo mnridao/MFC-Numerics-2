@@ -12,7 +12,7 @@ from src.parameters import Parameters
 from src.solver import TemporalSolver
 import src.utils as utils
 
-import plotters as plt
+import Demos.plotters as plt
 
 def runPollutionEvolution():
     """ 
@@ -59,7 +59,8 @@ def runPollutionEvolution():
                                                           mesh, utils.readingCoords)
     
     # Plot the results.
-    figname="../plots/pollutionEvolution.png"
+    # figname="../plots/pollutionEvolution.png"
+    figname="plots/pollutionEvolution.png"
     plt.plotPollutionTimeseriesMultipleRes(pollutionValues, endtime, resolutions,
                                            figname, saveFig=True)
 

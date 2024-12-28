@@ -12,7 +12,7 @@ from src.parameters import Parameters
 from src.solver import StaticSolver
 import src.utils as utils
 
-import plotters as plt
+import Demos.plotters as plt
 
 def runStaticConvergenceAnalysis():
     """ 
@@ -47,7 +47,8 @@ def runStaticConvergenceAnalysis():
         # Plot for sanity check.
         if debug == True:
             
-            filename = f"../plots/convergence_{res}.png"
+            # filename = f"../plots/convergence_{res}.png"
+            filename = f"plots/convergence_{res}.png"
             plt.plotGrid(mesh, psi, filename, saveFig=True)
         
         # Extract the solution at reading and store.
@@ -65,7 +66,8 @@ def plotErrors(dofs, errors):
     fit = np.polyfit(np.log(dofs[:-1]), np.log(errors), 1)
     
     # Plot the errors vs degrees of freedom (no of equations).    
-    filename = "../plots/convergenceError.png"
+    # filename = "../plots/convergenceError.png"
+    filename = "plots/convergenceError.png"
     plt.plotErrors(dofs, errors, fit, filename, saveFig=True)
     
     return fit[0]

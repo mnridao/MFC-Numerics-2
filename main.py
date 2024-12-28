@@ -5,8 +5,8 @@ Created on Sat Dec 28 00:33:05 2024
 @author: mn1215
 """
 
-from demos.convergence import runStaticConvergenceAnalysis
-from demos.pollutionEvolution import runPollutionEvolution
+from Demos.convergence import runStaticConvergenceAnalysis
+from Demos.pollutionevolution import runPollutionEvolution
 
 if __name__ == "__main__":
     
